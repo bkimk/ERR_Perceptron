@@ -1,2 +1,2 @@
-## OoO ERR Processor with Perceptron
+## OoO ERR Processor with Perceptron (SystemVerilog)
 
