@@ -1,0 +1,64 @@
+[2024-04-14 19:42:54.819401] |==============================================================================|
+[2024-04-14 19:42:54.822045] |=========                      OpenRAM v1.2.48                       =========|
+[2024-04-14 19:42:54.823897] |=========                                                            =========|
+[2024-04-14 19:42:54.825294] |=========               VLSI Design and Automation Lab               =========|
+[2024-04-14 19:42:54.826673] |=========        Computer Science and Engineering Department         =========|
+[2024-04-14 19:42:54.828095] |=========            University of California Santa Cruz             =========|
+[2024-04-14 19:42:54.829485] |=========                                                            =========|
+[2024-04-14 19:42:54.834272] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2024-04-14 19:42:54.835677] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2024-04-14 19:42:54.837036] |=========                See LICENSE for license info                =========|
+[2024-04-14 19:42:54.838632] |==============================================================================|
+[2024-04-14 19:42:54.840218] ** Start: 04/14/2024 19:42:54
+[2024-04-14 19:42:54.841788] Technology: freepdk45
+[2024-04-14 19:42:54.843234] Total size: 384 bits
+[2024-04-14 19:42:54.844791] Word size: 24
+Words: 16
+Banks: 1
+[2024-04-14 19:42:54.847155] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2024-04-14 19:42:54.850155] Design supply routing skipped. Supplies will have multiple must-connect pins. (route_supplies=True to enable supply routing).
+[2024-04-14 19:42:54.851824] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2024-04-14 19:42:54.853349] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2024-04-14 19:42:54.854930] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2024-04-14 19:42:54.856497] Only generating nominal corner timing.
+[2024-04-14 19:42:54.857995] Words per row: None
+[2024-04-14 19:42:54.859433] Output files are: 
+[2024-04-14 19:42:54.860899] /home/jup2/ece411_mp_ooo/sp24_ece411_Unemployed_Trio/mp_ooo/sram/output/mp_cache_tag_array/mp_cache_tag_array.lvs
+[2024-04-14 19:42:54.862269] /home/jup2/ece411_mp_ooo/sp24_ece411_Unemployed_Trio/mp_ooo/sram/output/mp_cache_tag_array/mp_cache_tag_array.sp
+[2024-04-14 19:42:54.863825] /home/jup2/ece411_mp_ooo/sp24_ece411_Unemployed_Trio/mp_ooo/sram/output/mp_cache_tag_array/mp_cache_tag_array.v
+[2024-04-14 19:42:54.865376] /home/jup2/ece411_mp_ooo/sp24_ece411_Unemployed_Trio/mp_ooo/sram/output/mp_cache_tag_array/mp_cache_tag_array.lib
+[2024-04-14 19:42:54.866900] /home/jup2/ece411_mp_ooo/sp24_ece411_Unemployed_Trio/mp_ooo/sram/output/mp_cache_tag_array/mp_cache_tag_array.py
+[2024-04-14 19:42:54.868548] /home/jup2/ece411_mp_ooo/sp24_ece411_Unemployed_Trio/mp_ooo/sram/output/mp_cache_tag_array/mp_cache_tag_array.html
+[2024-04-14 19:42:54.870156] /home/jup2/ece411_mp_ooo/sp24_ece411_Unemployed_Trio/mp_ooo/sram/output/mp_cache_tag_array/mp_cache_tag_array.log
+[2024-04-14 19:42:54.871644] /home/jup2/ece411_mp_ooo/sp24_ece411_Unemployed_Trio/mp_ooo/sram/output/mp_cache_tag_array/mp_cache_tag_array.lef
+[2024-04-14 19:42:54.873046] /home/jup2/ece411_mp_ooo/sp24_ece411_Unemployed_Trio/mp_ooo/sram/output/mp_cache_tag_array/mp_cache_tag_array.gds
+[2024-04-14 19:42:55.902923] ** Submodules: 1.0 seconds
+[2024-04-14 19:42:55.929396] ** Placement: 0.0 seconds
+[2024-04-14 19:43:02.134253] ** Routing: 6.2 seconds
+[2024-04-14 19:43:02.137957] ** Verification: 0.0 seconds
+[2024-04-14 19:43:02.139593] ** SRAM creation: 7.2 seconds
+[2024-04-14 19:43:02.141095] SP: Writing to /home/jup2/ece411_mp_ooo/sp24_ece411_Unemployed_Trio/mp_ooo/sram/output/mp_cache_tag_array/mp_cache_tag_array.sp
+[2024-04-14 19:43:02.204558] ** Spice writing: 0.1 seconds
+[2024-04-14 19:43:02.206149] DELAY: Writing stimulus...
+[2024-04-14 19:43:02.311928] ** DELAY: 0.1 seconds
+[2024-04-14 19:43:02.331277] GDS: Writing to /home/jup2/ece411_mp_ooo/sp24_ece411_Unemployed_Trio/mp_ooo/sram/output/mp_cache_tag_array/mp_cache_tag_array.gds
+[2024-04-14 19:43:02.405389] ** GDS: 0.1 seconds
+[2024-04-14 19:43:02.406898] LEF: Writing to /home/jup2/ece411_mp_ooo/sp24_ece411_Unemployed_Trio/mp_ooo/sram/output/mp_cache_tag_array/mp_cache_tag_array.lef
+[2024-04-14 19:43:02.426405] ** LEF: 0.0 seconds
+[2024-04-14 19:43:02.427945] LVS: Writing to /home/jup2/ece411_mp_ooo/sp24_ece411_Unemployed_Trio/mp_ooo/sram/output/mp_cache_tag_array/mp_cache_tag_array.lvs.sp
+[2024-04-14 19:43:02.447191] ** LVS writing: 0.0 seconds
+[2024-04-14 19:43:02.448698] LIB: Characterizing... 
+[2024-04-14 19:43:02.621660] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2024-04-14 19:43:02.625033] ** Characterization: 0.2 seconds
+[2024-04-14 19:43:02.629551] Config: Writing to /home/jup2/ece411_mp_ooo/sp24_ece411_Unemployed_Trio/mp_ooo/sram/output/mp_cache_tag_array/mp_cache_tag_array.py
+[2024-04-14 19:43:02.631047] ** Config: 0.0 seconds
+[2024-04-14 19:43:02.641234] Datasheet: Writing to /home/jup2/ece411_mp_ooo/sp24_ece411_Unemployed_Trio/mp_ooo/sram/output/mp_cache_tag_array/mp_cache_tag_array.html
+[2024-04-14 19:43:02.651184] ** Datasheet: 0.0 seconds
+[2024-04-14 19:43:02.652671] Verilog: Writing to /home/jup2/ece411_mp_ooo/sp24_ece411_Unemployed_Trio/mp_ooo/sram/output/mp_cache_tag_array/mp_cache_tag_array.v
+[2024-04-14 19:43:02.656686] ** Verilog: 0.0 seconds
+[2024-04-14 19:43:02.658084] Extended Config: Writing to /home/jup2/ece411_mp_ooo/sp24_ece411_Unemployed_Trio/mp_ooo/sram/output/mp_cache_tag_array/mp_cache_tag_array_extended.py
+[2024-04-14 19:43:02.662108] ** Extended Config: 0.0 seconds
+[2024-04-14 19:43:02.664033] ** End: 7.8 seconds
